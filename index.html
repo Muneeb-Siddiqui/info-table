@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2931/2931805.png">
+    <title>Table search</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="h1">Student Result<i style="margin:0px 0px 0px 15px ;" class="fa-solid fa-clipboard-list"></i></h1>
+        <div class="upper">
+            <div class="top">
+                <div class="input"><input type="text" placeholder="Enter Rollno.." id="inp"></div>
+                <div class="search"><button onclick="show()"><i
+                            class="fa-sharp fa-solid fa-magnifying-glass"></i></button></div>
+            </div>
+            <div class="bottom">
+                <table id="table">
+                </table>
+            </div>
+        </div>
+
+
+
+        <div class="lower">
+            <div class="data">
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
